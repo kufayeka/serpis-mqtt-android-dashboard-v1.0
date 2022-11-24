@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeID"
+        android:icon="@drawable/dashboard_layout_96px"
+        android:title="Monitor" />
+
+    <item android:id="@+id/kontrolID"
+        android:icon="@drawable/adjustment_96px"
+        android:title="Kontrol" />
+
+    <item android:id="@+id/infoID"
+        android:icon="@drawable/info_96px"
+        android:title="Info" />
+
+</menu>

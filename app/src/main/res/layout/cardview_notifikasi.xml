@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:padding="5dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="5dp"
+        android:clipToPadding="false"
+        app:cardBackgroundColor="@color/green"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginVertical="10dp"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginVertical="10dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/cardviewTextNotifikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:clipToPadding="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
