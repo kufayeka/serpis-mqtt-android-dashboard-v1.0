@@ -69,7 +69,7 @@ public class MqttService extends Service {
     MqttAndroidClient client;
     byte[] encodedPayload = new byte[0];
     //public static final String serverURI = "tcp://broker.hivemq.com:1883";
-    public static final String serverURI = "tcp://203.189.123.207:1883";
+    public static final String serverURI = "";
     public static final String clientId = MqttClient.generateClientId();
     int subscribeToTopicsAttempts = 0;
 
